@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IctBaden.1NCE", "IctBaden.1NCE\IctBaden.1NCE.csproj", "{59D3AEF8-FB29-48B7-85A9-3ED64C732424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IctBaden.1NCE.Dashboard", "IctBaden.1NCE.Dashboard\IctBaden.1NCE.Dashboard.csproj", "{72F8197D-065E-467D-8B9A-9C2AD12DC5BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59D3AEF8-FB29-48B7-85A9-3ED64C732424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D3AEF8-FB29-48B7-85A9-3ED64C732424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D3AEF8-FB29-48B7-85A9-3ED64C732424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D3AEF8-FB29-48B7-85A9-3ED64C732424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F8197D-065E-467D-8B9A-9C2AD12DC5BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F8197D-065E-467D-8B9A-9C2AD12DC5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F8197D-065E-467D-8B9A-9C2AD12DC5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F8197D-065E-467D-8B9A-9C2AD12DC5BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

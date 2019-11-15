@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\ICT Baden\IctBaden.1NCE\src\IctBaden.1NCE" t="IncludeFlat">
+      <e p="IctBaden.1NCE" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IctBaden.1NCE.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="IctBaden.1NCE.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Urls.cs" t="Include" />
+      </e>
+      <e p="IctBaden.1NCE.Dashboard" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IctBaden.1NCE.Dashboard.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="IctBaden.1NCE.Dashboard.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="IctBaden.1NCE.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Frank\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Frank\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_IctBaden.1NCE.1874743004.00" t="ExcludeRecursive" />
+  </component>
+</project>
