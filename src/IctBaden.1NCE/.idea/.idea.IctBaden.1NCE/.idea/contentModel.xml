@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\ICT Baden\IctBaden.1NCE\src\IctBaden.1NCE" t="IncludeFlat">
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_IctBaden.1NCE.1785259953.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="IctBaden.1NCE" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
         <e p="IctBaden.1NCE.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="AdditionalOrder.cs" t="Include" />
+          <e p="Address.cs" t="Include" />
+          <e p="AutoTopupRequest.cs" t="Include" />
+          <e p="CellGlobalId.cs" t="Include" />
+          <e p="Charge.cs" t="Include" />
+          <e p="Communication.cs" t="Include" />
+          <e p="Connectivity.cs" t="Include" />
+          <e p="ConnectivityInfo.cs" t="Include" />
+          <e p="Country.cs" t="Include" />
+          <e p="Daily.cs" t="Include" />
+          <e p="DailyUsage.cs" t="Include" />
+          <e p="Data.cs" t="Include" />
+          <e p="EventCollection.cs" t="Include" />
+          <e p="IccidRange.cs" t="Include" />
+          <e p="Link.cs" t="Include" />
+          <e p="Location.cs" t="Include" />
+          <e p="ManagementApiServiceRequest.cs" t="Include" />
+          <e p="ModelDefinitions.md" t="Include" />
+          <e p="Order.cs" t="Include" />
+          <e p="OrderedProduct.cs" t="Include" />
+          <e p="PdpContext.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="ProductInformation.cs" t="Include" />
+          <e p="Sim.cs" t="Include" />
+          <e p="SimEvent.cs" t="Include" />
+          <e p="Sms.cs" t="Include" />
+          <e p="SubscriberInfo.cs" t="Include" />
+          <e p="TrafficType.cs" t="Include" />
+          <e p="UssdInfo.cs" t="Include" />
+        </e>
+        <e p="Urls.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
@@ -12,11 +47,11 @@
             </e>
           </e>
         </e>
-        <e p="Urls.cs" t="Include" />
       </e>
       <e p="IctBaden.1NCE.Dashboard" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
         <e p="IctBaden.1NCE.Dashboard.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -24,12 +59,9 @@
             </e>
           </e>
         </e>
-        <e p="Program.cs" t="Include" />
       </e>
       <e p="IctBaden.1NCE.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\Frank\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Frank\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_IctBaden.1NCE.1874743004.00" t="ExcludeRecursive" />
   </component>
 </project>
