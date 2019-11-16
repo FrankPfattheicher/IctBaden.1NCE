@@ -31,9 +31,16 @@
           <e p="PdpContext.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="ProductInformation.cs" t="Include" />
+          <e p="Quota.cs" t="Include" />
           <e p="Sim.cs" t="Include" />
+          <e p="SimCard.cs" t="Include" />
           <e p="SimEvent.cs" t="Include" />
           <e p="Sms.cs" t="Include" />
+          <e p="SmsData.cs" t="Include" />
+          <e p="SmsStatus.cs" t="Include" />
+          <e p="SmsType.cs" t="Include" />
+          <e p="SourceAddressType.cs" t="Include" />
+          <e p="Status.cs" t="Include" />
           <e p="SubscriberInfo.cs" t="Include" />
           <e p="TrafficType.cs" t="Include" />
           <e p="UssdInfo.cs" t="Include" />
