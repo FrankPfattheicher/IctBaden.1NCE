@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace IctBaden._1NCE.Models
+namespace IctBaden.Api1NCE.Models
 {
     /// <summary>
     /// Optional information about the current location

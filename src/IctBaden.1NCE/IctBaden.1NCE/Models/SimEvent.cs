@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 // ReSharper disable InconsistentNaming
 
-namespace IctBaden._1NCE.Models
+namespace IctBaden.Api1NCE.Models
 {
     /// <summary>
     /// Information about a Event. Besides the timestamp and the event_type all other values are optional and might not be included in the actual response

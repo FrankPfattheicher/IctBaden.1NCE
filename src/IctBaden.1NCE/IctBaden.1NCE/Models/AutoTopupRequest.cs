@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace IctBaden._1NCE.Models
+namespace IctBaden.Api1NCE.Models
 {
     /// <summary>
     /// Contains a list of ICCIDs and a boolean flag for auto topup

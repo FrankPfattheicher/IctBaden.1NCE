@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace IctBaden._1NCE.Models
+namespace IctBaden.Api1NCE.Models
 {
     /// <summary>
     /// What you want and how much of it

@@ -6,6 +6,8 @@
     <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_IctBaden.1NCE.1785259953.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="IctBaden.1NCE" t="IncludeRecursive">
+        <e p="ApiAuthentication.cs" t="Include" />
+        <e p="DefaultUrls.cs" t="Include" />
         <e p="IctBaden.1NCE.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="AdditionalOrder.cs" t="Include" />
@@ -35,6 +37,7 @@
           <e p="Sim.cs" t="Include" />
           <e p="SimCard.cs" t="Include" />
           <e p="SimEvent.cs" t="Include" />
+          <e p="SimUpdate.cs" t="Include" />
           <e p="Sms.cs" t="Include" />
           <e p="SmsData.cs" t="Include" />
           <e p="SmsStatus.cs" t="Include" />
@@ -45,7 +48,6 @@
           <e p="TrafficType.cs" t="Include" />
           <e p="UssdInfo.cs" t="Include" />
         </e>
-        <e p="Urls.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

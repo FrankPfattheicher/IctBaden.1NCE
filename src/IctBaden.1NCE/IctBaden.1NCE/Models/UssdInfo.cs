@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace IctBaden._1NCE.Models
+namespace IctBaden.Api1NCE.Models
 {
     /// <summary>
     /// Optional ussd information, only set if the parameter ‘ussd’ is set to true.

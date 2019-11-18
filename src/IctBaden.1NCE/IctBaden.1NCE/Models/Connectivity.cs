@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using Newtonsoft.Json;
 
-namespace IctBaden._1NCE.Models
+namespace IctBaden.Api1NCE.Models
 {
     /// <summary>
     /// Contains connectivity status

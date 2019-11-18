@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 // ReSharper disable InconsistentNaming
 
-namespace IctBaden._1NCE.Models
+namespace IctBaden.Api1NCE.Models
 {
     public class SmsData
     {

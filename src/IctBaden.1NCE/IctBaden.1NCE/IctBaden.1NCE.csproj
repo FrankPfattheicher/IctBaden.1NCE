@@ -2,7 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <RootNamespace>IctBaden._1NCE</RootNamespace>
+        <RootNamespace>IctBaden.Api1NCE</RootNamespace>
+        <LangVersion>8</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>

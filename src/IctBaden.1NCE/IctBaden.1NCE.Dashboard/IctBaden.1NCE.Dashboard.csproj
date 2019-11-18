@@ -6,4 +6,8 @@
         <RootNamespace>IctBaden._1NCE.Dashboard</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\IctBaden.1NCE\IctBaden.1NCE.csproj" />
+    </ItemGroup>
+
 </Project>

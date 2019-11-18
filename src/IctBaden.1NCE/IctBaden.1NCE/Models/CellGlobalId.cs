@@ -1,17 +1,17 @@
-using System;
 using Newtonsoft.Json;
+// ReSharper disable InconsistentNaming
 
-namespace IctBaden._1NCE.Models
+namespace IctBaden.Api1NCE.Models
 {
     public class CellGlobalId
     {
         [JsonProperty("cid")]
-        public int Cid { get; set; }
+        public int CID { get; set; }
         [JsonProperty("lac")]
-        public int Lac { get; set; }
+        public int LAC { get; set; }
         [JsonProperty("mcc")]
-        public string Mcc { get; set; }
+        public string MCC { get; set; }
         [JsonProperty("mnc")]
-        public string Mnc { get; set; }
+        public string MNC { get; set; }
     }
 }
