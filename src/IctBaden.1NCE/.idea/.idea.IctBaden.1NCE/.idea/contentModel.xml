@@ -48,6 +48,7 @@
           <e p="TrafficType.cs" t="Include" />
           <e p="UssdInfo.cs" t="Include" />
         </e>
+        <e p="SimsV1.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
