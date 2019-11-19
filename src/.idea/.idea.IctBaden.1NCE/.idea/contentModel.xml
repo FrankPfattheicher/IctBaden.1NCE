@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_IctBaden.1NCE.1785259953.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\ICT Baden\IctBaden.1NCE\src" t="IncludeFlat">
       <e p="IctBaden.1NCE" t="IncludeRecursive">
         <e p="ApiAuthentication.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
         <e p="DefaultUrls.cs" t="Include" />
         <e p="IctBaden.1NCE.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -48,8 +46,6 @@
           <e p="TrafficType.cs" t="Include" />
           <e p="UssdInfo.cs" t="Include" />
         </e>
-        <e p="SimsV1.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
@@ -57,11 +53,31 @@
             </e>
           </e>
         </e>
+        <e p="SimsV1.cs" t="Include" />
       </e>
       <e p="IctBaden.1NCE.Dashboard" t="IncludeRecursive">
-        <e p="IctBaden.1NCE.Dashboard.csproj" t="IncludeRecursive" />
-        <e p="Program.cs" t="Include" />
+        <e p="app" t="Include">
+          <e p="index.html" t="Include" />
+          <e p="info.html" t="Include" />
+          <e p="info.png" t="Include" />
+          <e p="orders.html" t="Include" />
+          <e p="orders.png" t="Include" />
+          <e p="products.html" t="Include" />
+          <e p="products.png" t="Include" />
+          <e p="sims.html" t="Include" />
+          <e p="sims.png" t="Include" />
+          <e p="src" t="Include">
+            <e p="fontawesome_all.css" t="Include" />
+          </e>
+          <e p="styles" t="Include">
+            <e p="dashboard.css" t="Include" />
+          </e>
+          <e p="webfonts" t="Include">
+            <e p="fa-solid-900.woff2" t="Include" />
+          </e>
+        </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="IctBaden.1NCE.Dashboard.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
@@ -69,9 +85,18 @@
             </e>
           </e>
         </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="InfoVm.cs" t="Include" />
+          <e p="OrdersVm.cs" t="Include" />
+          <e p="ProductsVm.cs" t="Include" />
+          <e p="SimsVm.cs" t="Include" />
+        </e>
       </e>
       <e p="IctBaden.1NCE.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
+    <e p="C:\Users\Frank\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Frank\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_IctBaden.1NCE.606026271.00" t="ExcludeRecursive" />
   </component>
 </project>

@@ -1,0 +1,14 @@
+<!--Title:SIMs:30-->
+<div>
+    
+    <h1>SIMs</h1>
+    
+    <ul class="list">
+        <li v-for="sim in SimCards" :key="sim.Id">
+            <i class="fas fa-sim-card"></i>
+            &nbsp;{{sim.IMSI}} - {{sim.Label}}
+        </li>
+    </ul>
+    
+</div>
+
