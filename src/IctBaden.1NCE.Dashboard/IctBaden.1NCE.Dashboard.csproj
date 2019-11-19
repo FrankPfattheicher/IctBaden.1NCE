@@ -30,9 +30,7 @@
       <EmbeddedResource Include="app\styles\dashboard.css" />
       <None Remove="app\src\fontawesome_all.min.css" />
       <None Remove="app\src\fontawesome_all.css" />
-      <EmbeddedResource Include="app\src\fontawesome_all.css" />
       <None Remove="app\webfonts\fa-solid-900.woff2" />
-      <EmbeddedResource Include="app\webfonts\fa-solid-900.woff2" />
     </ItemGroup>
 
     <ItemGroup>
@@ -40,11 +38,7 @@
       <PackageReference Include="Chromely.CefGlue.Gtk" Version="4.0.70.1" />
       <PackageReference Include="Chromely.CefGlue.Winapi" Version="4.0.70.1" />
       <PackageReference Include="Chromely.Core" Version="4.0.0.1" />
-      <PackageReference Include="IctBaden.Stonehenge3" Version="3.8.8" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="app\webfonts" />
+      <PackageReference Include="IctBaden.Stonehenge3" Version="3.8.10" />
     </ItemGroup>
 
 </Project>
