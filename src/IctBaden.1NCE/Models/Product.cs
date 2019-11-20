@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace IctBaden.Api1NCE.Models
@@ -21,7 +22,7 @@ namespace IctBaden.Api1NCE.Models
         [JsonProperty("min_contract_duration")]
         public long MinContractDuration { get; set; }
         [JsonProperty("one_time_charges")]
-        public Charge OneTimeCharges { get; set; }
+        public List<Charge> OneTimeCharges { get; set; }
         [JsonProperty("recurring_charges")]
         public Charge RecurringCharges { get; set; }
      }

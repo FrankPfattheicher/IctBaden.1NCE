@@ -7,14 +7,14 @@ using Newtonsoft.Json;
 
 namespace IctBaden.Api1NCE
 {
-    public class SimsV1 : IDisposable
+    public class ProductsV1 : IDisposable
     {
         private readonly string _apiUrl;
         private readonly WebClient _client;
 
-        public SimsV1(string apiUrl, string accessToken)
+        public ProductsV1(string apiUrl, string accessToken)
         {
-            _apiUrl = apiUrl + "/management-api/v1/sims";
+            _apiUrl = apiUrl + "/management-api/v1/products";
             _client = new WebClient();
             
             _client.Headers.Add(HttpRequestHeader.Accept, "application/json");
@@ -26,21 +26,20 @@ namespace IctBaden.Api1NCE
             _client?.Dispose();    
         }
         
-        public List<SimCard> GetSimCards()
+        public List<Product> GetProducts()
         {
             try
             {
                 var json = _client.DownloadString(_apiUrl);
-                var simCards = JsonConvert.DeserializeObject<List<SimCard>>(json);
-                return simCards;
+                var products = JsonConvert.DeserializeObject<List<Product>>(json);
+                return products;
             }
             catch (Exception ex)
             {
-                Trace.TraceError("GetSimCards: " + ex.Message);
+                Trace.TraceError("GetProducts: " + ex.Message);
                 return null;
             }
         }
-        
         
     }
 }

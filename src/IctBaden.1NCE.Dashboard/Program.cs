@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using Chromely.CefGlue;
 using Chromely.Core;
 using Chromely.Core.Host;
@@ -46,7 +45,7 @@ namespace IctBaden._1NCE.Dashboard
                 .WithSilentCefBinariesLoading(true)
                 .WithHostMode(WindowState.Normal)
                 .WithHostTitle(options.Title)
-                .WithHostIconFile("1NCE.ico")
+                .WithHostIconFile("1NCE.png")
                 .WithAppArgs(args)
                 .WithHostBounds(1000, 600)
                 .WithDefaultSubprocess()

@@ -4,6 +4,10 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>IctBaden.Api1NCE</RootNamespace>
         <LangVersion>8</LangVersion>
+        <PackageVersion>0.1.0</PackageVersion>
+        <Copyright>(C) 2019 ICT Baden GmbH</Copyright>
+        <AssemblyVersion>0.1.0</AssemblyVersion>
+        <FileVersion>0.1.0</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>

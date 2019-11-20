@@ -2,8 +2,13 @@
 <div>
     
     <h1>Products</h1>
-    
-    
+
+    <ul class="list">
+        <li v-for="prod in Products" :key="prod.Id">
+            <i class="fas fa-box"></i>
+            &nbsp;{{prod.Name}} - {{prod.Material}} [{{prod.PackageSize}}]
+        </li>
+    </ul>
     
 </div>
 

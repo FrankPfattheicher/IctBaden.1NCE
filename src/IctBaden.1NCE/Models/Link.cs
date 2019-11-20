@@ -13,6 +13,6 @@ namespace IctBaden.Api1NCE.Models
         /// example: https://api.1nce.com/api/v1/sims/9999999999000000001
         /// </summary>
         [JsonProperty("href")]
-        public string href { get; set; }
+        public string Href { get; set; }
     }
 }

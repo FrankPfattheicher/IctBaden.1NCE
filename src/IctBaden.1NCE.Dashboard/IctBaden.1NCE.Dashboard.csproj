@@ -41,4 +41,11 @@
       <PackageReference Include="IctBaden.Stonehenge3" Version="3.8.10" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="1NCE.png" />
+      <Content Include="1NCE.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
 </Project>

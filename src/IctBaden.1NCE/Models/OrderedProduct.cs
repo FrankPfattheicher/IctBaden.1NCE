@@ -1,4 +1,3 @@
-using System;
 using Newtonsoft.Json;
 
 namespace IctBaden.Api1NCE.Models

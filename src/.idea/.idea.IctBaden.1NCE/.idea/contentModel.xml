@@ -48,6 +48,8 @@
           <e p="TrafficType.cs" t="Include" />
           <e p="UssdInfo.cs" t="Include" />
         </e>
+        <e p="OrdersV1.cs" t="Include" />
+        <e p="ProductsV1.cs" t="Include" />
         <e p="SimsV1.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -59,6 +61,7 @@
         </e>
       </e>
       <e p="IctBaden.1NCE.Dashboard" t="IncludeRecursive">
+        <e p="1NCE.png" t="Include" />
         <e p="IctBaden.1NCE.Dashboard.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="ViewModels" t="Include">

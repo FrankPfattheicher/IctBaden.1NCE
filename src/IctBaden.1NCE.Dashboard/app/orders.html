@@ -2,9 +2,14 @@
 <div>
     
     <h1>Orders</h1>
-    
-    
-    
+
+    <ul class="list">
+        <li v-for="order in Orders" :key="order.OrderNumber">
+            <i class="fas fa-shopping-bag"></i>
+            &nbsp;{{order.OrderNumber}} - {{order.OrderType}} [{{order.OrderStatus}}]
+        </li>
+    </ul>
+
 </div>
 
     
