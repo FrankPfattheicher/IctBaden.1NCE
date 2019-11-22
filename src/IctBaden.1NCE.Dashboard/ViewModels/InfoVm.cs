@@ -4,7 +4,7 @@ using IctBaden.Api1NCE;
 
 namespace IctBaden._1NCE.Dashboard.ViewModels
 {
-    public class InfoVGetNm
+    public class InfoVm
     {
         public string LibraryVersion => 
             typeof(DefaultUrls).Assembly.GetName().Version.ToString();

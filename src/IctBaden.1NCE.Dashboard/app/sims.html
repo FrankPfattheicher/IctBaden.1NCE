@@ -4,11 +4,96 @@
     <h1>SIMs</h1>
     
     <ul class="list">
-        <li v-for="sim in SimCards" :key="sim.Id">
+        <li v-for="sim in SimCards" 
+            :key="sim.IMSI" :class="sim.Class"
+            @click="SelectSim(sim.IMSI)">
             <i class="fas fa-sim-card"></i>
             &nbsp;{{sim.IMSI}} - {{sim.Label}}
         </li>
     </ul>
+    
+    <hr>
+    
+    <table>
+        <tr>
+            
+            <td>
+
+                <table v-if="HasSelected">
+
+                    <tr>
+                        <td colspan="3">
+                            <h4>{{Selected.IMSI}}</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Label</td>
+                        <td>&nbsp;</td>
+                        <td>{{Selected.Label}}</td>
+                    </tr>
+                    <tr>
+                        <td>ICCID</td>
+                        <td>&nbsp;</td>
+                        <td>{{Selected.ICCID}}</td>
+                    </tr>
+                    <tr>
+                        <td>IMEI</td>
+                        <td>&nbsp;</td>
+                        <td>{{Selected.IMEI}}<span v-if="Selected.IMEILock"> [locked]</span></td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td>&nbsp;</td>
+                        <td>{{Selected.Status}}</td>
+                    </tr>
+                    <tr>
+                        <td>Activation Date</td>
+                        <td>&nbsp;</td>
+                        <td>{{Selected.ActivationDate}}</td>
+                    </tr>
+                    <tr>
+                        <td>IP Address</td>
+                        <td>&nbsp;</td>
+                        <td>{{Selected.IpAddress}}</td>
+                    </tr>
+                    <tr>
+                        <td>Current Quota</td>
+                        <td>&nbsp;</td>
+                        <td>{{Selected.CurrentQuota}} MB</td>
+                    </tr>
+                    <tr>
+                        <td>Quota Status</td>
+                        <td>&nbsp;</td>
+                        <td>{{Selected.QuotaStatus.Description}}</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <button class="btn btn-secondary btn-sm" @click="ShowSimEvents()">Events...</button>
+                        </td>
+                    </tr>
+
+                </table>
+                
+            </td>
+            <td>&nbsp;&nbsp;</td>
+            <td style="vertical-align: top;">
+
+                <div v-if="HasSimEvents">
+                    <b>Events</b>
+                    <div v-for="ev in SimEvents">
+                        {{ev.EventSeverity}}: {{ev.EventType}} - {{ev.Operator}} - {{ev.Timestamp}}
+                    </div>
+
+                </div>
+
+            </td>
+            
+        </tr>
+    </table>
+
+    
     
 </div>
 

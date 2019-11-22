@@ -40,7 +40,21 @@ namespace IctBaden.Api1NCE
                 return null;
             }
         }
-        
+
+        public List<SimEvent> GetSimEvents(string iccid)
+        {
+            try
+            {
+                var json = _client.DownloadString(_apiUrl + $"/{iccid}/events");
+                var eventCollection = JsonConvert.DeserializeObject<EventCollection>(json);
+                return eventCollection.Events;
+            }
+            catch (Exception ex)
+            {
+                Trace.TraceError("GetSimEvents: " + ex.Message);
+                return null;
+            }
+        }
         
     }
 }
